@@ -32,14 +32,14 @@ public class AudioController : MonoBehaviour
     }
 
     private ParticleSystem.EmissionModule _particleEmission;
-    private ParticleSystem.MainModule main;
+    private ParticleSystem.MainModule _main;
     private void ChangeParticleEmission(float changeRate)
     {
         _particleEmission = _soundObject.emission;
         _particleEmission.rateOverTime = changeRate;
 
-        main = _soundObject2.main;
-        main.startSize = changeRate;
+        _main = _soundObject2.main;
+        _main.startSize = changeRate;
     }
 
     private IEnumerator StartDelayed()
