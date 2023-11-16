@@ -1,2 +1,3 @@
 # unity-audio-visualizer
-Unity audio viusalizing project using audio spectrum with custom pfx and build
+### Unity audio visualizing project using Unity audio spectrum with custom particle effects.
+The output of the project is available in the link.
